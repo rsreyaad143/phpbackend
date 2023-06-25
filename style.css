@@ -1,0 +1,94 @@
+
+
+/********************************************
+Personal CSS
+*****************************************/
+
+
+
+
+
+
+/*****************************************
+        Register
+*****************************************/
+
+
+
+.main-content{
+    margin: 100px auto;
+}
+.bg{
+    margin-top: 20px;
+    
+}
+.registration-form{
+    width: 60%;
+    margin: auto;
+    background: #48484882;
+}
+.registration-form form{
+   padding: 150px;
+}
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"]{
+   width: 100%;
+   margin: 10px 0;
+   padding: 15px 30px;
+   border: 0;
+   border-radius: 5px;
+   color: #ffffff;
+   background: #4848488d;
+   
+}
+.registration-form input[type="text"]:focus,
+.registration-form input[type="email"]:focus,
+.registration-form input[type="password"]:focus{
+   outline: none;
+   background: #191919dc;
+}
+.registration-form input[type="text"]::placeholder,
+.registration-form input[type="email"]::placeholder,
+.registration-form input[type="password"]::placeholder{
+   color: #ffffffdc;
+}
+.registration-form input[type="submit"]{
+    color: #ffffff;
+    background: #e67e22;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+.error{
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+}
+.success{
+    color: #82ffb6;
+    font-size: 16px;
+    padding: 30px 15px;
+}
+.success a {
+    color: #82ffb6;
+    font-size: 20px;
+    padding: 30px 15px;
+}
+
+
+.home{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.home>a{
+    display: inline-block;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    background: #e67e22;
+    padding: 8px 25px;
+}
+
