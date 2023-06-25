@@ -21,12 +21,7 @@
             $success = "Page has been created!";
             header('location: edit.php'.$url);
         }
-
-        
-
-
     }
-
 
 ?>
 <!DOCTYPE html>
@@ -36,6 +31,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New Page</title>
     <link rel="stylesheet" href="admin.css">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>
+      tinymce.init({
+        selector: '.tinymce'
+      });
+    </script>
 </head>
 <body>
 
@@ -65,11 +66,6 @@
     </div>
     
 
-    <script src="../tinymce/tinymce.min.js"></script>
-    <script>
-      tinymce.init({
-        selector: '.tinymce'
-      });
-    </script>
+
 </body>
 </html>
